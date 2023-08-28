@@ -12,4 +12,8 @@ void main(){
 
   }
   sum();
+  void substract([int c=20,int d=50]){
+    print(c-d);
+  }
+  substract(10);
 }
